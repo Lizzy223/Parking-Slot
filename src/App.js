@@ -4,12 +4,13 @@ import {
   Box,
 } from '@chakra-ui/react';
 import Slot from './component/Slot';
+import Form from './component/Form';
 
 function App() {
   return (
     <ChakraProvider >
       <Box >
-        <Slot/>
+        <Form/>
       </Box>
     </ChakraProvider>
   );
